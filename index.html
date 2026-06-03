@@ -8,8 +8,8 @@
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1>Green Valley School</h1>
+    <div class="container header-content">
+      <h1>🎓 Green Valley School</h1>
       <nav>
         <a href="#home">Home</a>
         <a href="#about">About</a>
@@ -21,21 +21,29 @@
   </header>
 
   <main>
-    <section id="home" class="hero container">
-      <h2>Welcome to Your School Website</h2>
-      <p>Discover learning opportunities, student stories, and helpful resources for a great school year.</p>
-      <a class="button" href="#about">Learn More</a>
+    <section id="home" class="hero">
+      <div class="hero-image-wrapper">
+        <img src="https://images.unsplash.com/photo-1427504494785-cdec0f72e4e0?w=1200&h=500&fit=crop" alt="Students learning together" class="hero-image" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content container">
+        <h2>Welcome to Your School Website</h2>
+        <p>Discover learning opportunities, student stories, and helpful resources for a great school year.</p>
+        <a class="button" href="#about">Learn More</a>
+      </div>
     </section>
 
     <section id="about" class="section container">
-      <h2>About Our School</h2>
+      <h2>Things you should know about Our School</h2>
       <p>Green Valley School is dedicated to helping students grow academically, creatively, and socially. Our caring teachers and strong community support student success.</p>
       <div class="cards">
         <article class="card">
+          <div class="card-icon">🎯</div>
           <h3>Mission</h3>
           <p>To support every student with a safe, welcoming, and inspiring learning environment.</p>
         </article>
         <article class="card">
+          <div class="card-icon">⭐</div>
           <h3>Values</h3>
           <p>Respect, curiosity, responsibility, and teamwork guide all of our learning experiences.</p>
         </article>
@@ -45,17 +53,23 @@
     <section id="classes" class="section container">
       <h2>Classes & Learning</h2>
       <div class="grid">
-        <article>
+        <article class="class-card">
+          <div class="class-icon">📐</div>
           <h3>Math</h3>
           <p>Build strong problem-solving skills with fun activities and projects.</p>
+          <a href="#" class="card-link">Learn More →</a>
         </article>
-        <article>
+        <article class="class-card">
+          <div class="class-icon">🔬</div>
           <h3>Science</h3>
           <p>Explore experiments, nature, and technology with hands-on lessons.</p>
+          <a href="#" class="card-link">Learn More →</a>
         </article>
-        <article>
+        <article class="class-card">
+          <div class="class-icon">📚</div>
           <h3>Language Arts</h3>
           <p>Improve reading, writing, and communication through stories and creative work.</p>
+          <a href="#" class="card-link">Learn More →</a>
         </article>
       </div>
     </section>
@@ -64,17 +78,21 @@
       <h2>Student Projects</h2>
       <p>See examples of student work and group activities that encourage creativity and learning.</p>
       <ul class="project-list">
-        <li>Science fair experiments</li>
-        <li>Art showcase presentations</li>
-        <li>Classroom technology projects</li>
+        <li><span class="project-icon">🔭</span> Science fair experiments</li>
+        <li><span class="project-icon">🎨</span> Art showcase presentations</li>
+        <li><span class="project-icon">💻</span> Classroom technology projects</li>
       </ul>
     </section>
 
-    <section id="contact" class="section container contact-card">
-      <h2>Contact Us</h2>
-      <p>If you have questions, reach out to our school office or ask your teacher.</p>
-      <p>Email: info@greenvalleyschool.edu</p>
-      <p>Phone: (555) 123-4567</p>
+    <section id="contact" class="section container contact-section">
+      <div class="contact-card">
+        <h2>Contact Us</h2>
+        <p>If you have questions, reach out to our school office or ask your teacher.</p>
+        <div class="contact-info">
+          <p class="contact-item"><span class="contact-icon">📧</span> Email: <a href="mailto:info@greenvalleyschool.edu">info@greenvalleyschool.edu</a></p>
+          <p class="contact-item"><span class="contact-icon">📞</span> Phone: <a href="tel:+15551234567">(555) 123-4567</a></p>
+        </div>
+      </div>
     </section>
   </main>
 
